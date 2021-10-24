@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-23T11:10:15.706Z</updated>
+  <updated>2021-10-24T15:48:51.481Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>html一些简单的定义</title>
+    <link href="http://example.com/2021/10/24/html%E4%B8%80%E4%BA%9B%E7%AE%80%E5%8D%95%E7%9A%84%E5%AE%9A%E4%B9%89/"/>
+    <id>http://example.com/2021/10/24/html%E4%B8%80%E4%BA%9B%E7%AE%80%E5%8D%95%E7%9A%84%E5%AE%9A%E4%B9%89/</id>
+    <published>2021-10-24T15:48:18.000Z</published>
+    <updated>2021-10-24T15:48:51.481Z</updated>
+    
+    <content type="html"><![CDATA[<p>#简介</p><p>HTML的简单定义</p><p>HTML标题<br>html标题通过<code>&lt;h1&gt;-&lt;h6&gt;</code>来定义<br>例：<code>&lt;h1&gt;标题&lt;/h1&gt;</code><br>HTML段落<br>html段落通过<code>&lt;p&gt;</code>来定义<br>例：<code>&lt;P&gt;段落内容&lt;p&gt;</code><br>HTML链接<br>html链接由<code>&lt;a&gt;</code>定义<br>例：<code>&lt;a href=&quot;https://www.runoob.com&quot;&gt;这是一个链接&lt;/a&gt;</code><br>HTML图像<br>html图像由<code>&lt;img&gt;</code>来定义<br>例：<code>&lt;img loading=&quot;lazy&quot; src=&quot;/images/logo.png&quot; width=&quot;258&quot; height=&quot;39&quot; /&gt;</code><br><code>&lt;br&gt;</code>（有三种写法<code>&lt;br&gt;&lt;br/&gt;&lt;br /&gt;</code>不过一般用<code>&lt;br&gt;</code>即可）<br>用来换行，作用可类似于行间分割线<br><code>&lt;body&gt;</code><br>用来定义html文档的主体<br><code>&lt;html&gt;</code><br>用来定义整个html文档<br><code>&lt;!--   --&gt;</code><br>用来注释，相当于c语言中的//<br><code>&lt;b&gt;&lt;/b&gt;</code><br>用来加粗字体<br><code>&lt;i&gt;&lt;/i&gt;</code><br>用来斜体字体<br><code>&lt;b&gt;</code>和<code>&lt;strong&gt;`，&lt;r&gt;&lt;em&gt;</code>意义相同，但<code>&lt;strong&gt;</code>和<code>&lt;em&gt;</code>的加强意味更强<br><code>&lt;small&gt;</code>定义小号字体<code>&lt;sub&gt;</code>定义下标字<code>&lt;sup&gt;</code>定义上标字<code>&lt;ins&gt;</code>定义插入字<code>&lt;del&gt;</code>定义删去字<br>定义”计算机输出“标签<br><code>&lt;code&gt;</code>定义代码<code>&lt;kbd&gt;</code>定义键盘码<code>&lt;samp&gt;</code>定义计算机代码样本<code>&lt;var&gt;</code>定义变量<code>&lt;pre&gt;</code>定义预格式文本<br>HTML 引文, 引用, 及标签定义<br><code>&lt;abbr&gt;</code>定义缩写<code>&lt;adress&gt;</code>定义地址<code>&lt;bdo&gt;</code>定义文字方向<code>&lt;blockquote&gt;</code>定义长的引用语<code>&lt;q&gt;</code>定义短的引用语<code>&lt;cite&gt;</code>定义引用引证<code>&lt;dfn&gt;</code>定义一个定义项目</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;#简介&lt;/p&gt;
+&lt;p&gt;HTML的简单定义&lt;/p&gt;
+&lt;p&gt;HTML标题&lt;br&gt;html标题通过&lt;code&gt;&amp;lt;h1&amp;gt;-&amp;lt;h6&amp;gt;&lt;/code&gt;来定义&lt;br&gt;例：&lt;code&gt;&amp;lt;h1&amp;gt;标题&amp;lt;/h1&amp;gt;&lt;/code&gt;&lt;br&gt;HTML段落&lt;b</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>初步认识html</title>
-    <link href="http://example.com/2021/09/22/%E5%88%9D%E6%AD%A5%E8%AE%A4%E8%AF%86html/"/>
-    <id>http://example.com/2021/09/22/%E5%88%9D%E6%AD%A5%E8%AE%A4%E8%AF%86html/</id>
-    <published>2021-09-22T02:04:18.000Z</published>
-    <updated>2021-10-23T11:10:15.706Z</updated>
+    <link href="http://example.com/2021/10/23/%E5%88%9D%E6%AD%A5%E8%AE%A4%E8%AF%86html/"/>
+    <id>http://example.com/2021/10/23/%E5%88%9D%E6%AD%A5%E8%AE%A4%E8%AF%86html/</id>
+    <published>2021-10-23T15:49:18.000Z</published>
+    <updated>2021-10-24T15:49:17.078Z</updated>
     
     <content type="html"><![CDATA[<p>#简介</p><p><strong>HTML：</strong><br>html是什么？<br>html全称：HyperText Markup Language<br>html不是编程语言而是标记语言。<br>html文档称为web页面。</p><p><strong>html标签：</strong><br>标签总是成对出现的如<html></html>第一个为开始标签，第二个为结束标签。<br>开始和结束标签也称为开放标签和闭合标签。</p><html>内容</html><p><strong>html元素：</strong><br>通常情况下html元素和html标签差别不大<br>严格来讲html元素包含了html标签</p><p><strong>web浏览器</strong><br>web浏览器用来浏览html文档</p><p>（!DOCTYPE）声明（这里将&lt;&gt;换成了()一定要记得更改！）<br>放在html文档中的开头<br>有了doctype声明浏览器就能够正确的显示出内容<br>（doctype不分大小写都可以使用）<br><strong>常用的<code>&lt;!DOCTYPE&gt;</code>声明：</strong>外面加的一定要是&lt;&gt;本文用的是（）<br><code>HTML5</code><br><code>&lt;!DOCTYPE html&gt;</code><br><code>HTML 4.01</code><br><code>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;</code><br><code>XHTML 1.0</code><br><code>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;</code></p><p><strong>输入中文</strong>：<br>在大部分浏览器中输入中文可以出现乱码，这时可以在<head>下方将字符声明为UTF-8或GBK</p><p><code>&lt;!DOCTYPE html&gt;</code><br><code>&lt;html&gt;</code></p><p><code>&lt;head&gt;</code></p><p><code>&lt;meta charset=&quot;UTF-8&quot;&gt;</code><br><code>&lt;title&gt;</code><br><code>页面标题&lt;/title&gt;</code><br><code>&lt;/head&gt;</code> </p><p><code>&lt;body&gt;</code></p><p><code>&lt;h1&gt;我的第一个标题&lt;/h1&gt;</code></p><p><code>&lt;p&gt;开头&lt;/p&gt;</code></p><p> <code>&lt;body&gt;</code></p><p><code>&lt;html&gt;</code></p>]]></content>
     
@@ -53,28 +75,6 @@
     <summary type="html">&lt;p&gt;#简介&lt;/p&gt;
 &lt;p&gt;这是我的第一篇博客文章。&lt;/p&gt;
 </summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>html一些简单的定义</title>
-    <link href="http://example.com/2021/09/22/html%E4%B8%80%E4%BA%9B%E7%AE%80%E5%8D%95%E7%9A%84%E5%AE%9A%E4%B9%89/"/>
-    <id>http://example.com/2021/09/22/html%E4%B8%80%E4%BA%9B%E7%AE%80%E5%8D%95%E7%9A%84%E5%AE%9A%E4%B9%89/</id>
-    <published>2021-09-22T02:04:18.000Z</published>
-    <updated>2021-10-24T15:46:18.548Z</updated>
-    
-    <content type="html"><![CDATA[<p>#简介</p><p>HTML的简单定义</p><p>HTML标题<br>html标题通过<code>&lt;h1&gt;-&lt;h6&gt;</code>来定义<br>例：<code>&lt;h1&gt;标题&lt;/h1&gt;</code><br>HTML段落<br>html段落通过<code>&lt;p&gt;</code>来定义<br>例：<code>&lt;P&gt;段落内容&lt;p&gt;</code><br>HTML链接<br>html链接由<code>&lt;a&gt;</code>定义<br>例：<code>&lt;a href=&quot;https://www.runoob.com&quot;&gt;这是一个链接&lt;/a&gt;</code><br>HTML图像<br>html图像由<code>&lt;img&gt;</code>来定义<br>例：<code>&lt;img loading=&quot;lazy&quot; src=&quot;/images/logo.png&quot; width=&quot;258&quot; height=&quot;39&quot; /&gt;</code><br><code>&lt;br&gt;</code>（有三种写法<code>&lt;br&gt;&lt;br/&gt;&lt;br /&gt;</code>不过一般用<code>&lt;br&gt;</code>即可）<br>用来换行，作用可类似于行间分割线<br><code>&lt;body&gt;</code><br>用来定义html文档的主体<br><code>&lt;html&gt;</code><br>用来定义整个html文档<br><code>&lt;!--   --&gt;</code><br>用来注释，相当于c语言中的//<br><code>&lt;b&gt;&lt;/b&gt;</code><br>用来加粗字体<br><code>&lt;i&gt;&lt;/i&gt;</code><br>用来斜体字体<br><code>&lt;b&gt;</code>和<code>&lt;strong&gt;`，&lt;r&gt;&lt;em&gt;</code>意义相同，但<code>&lt;strong&gt;</code>和<code>&lt;em&gt;</code>的加强意味更强<br><code>&lt;small&gt;</code>定义小号字体<code>&lt;sub&gt;</code>定义下标字<code>&lt;sup&gt;</code>定义上标字<code>&lt;ins&gt;</code>定义插入字<code>&lt;del&gt;</code>定义删去字<br>定义”计算机输出“标签<br><code>&lt;code&gt;</code>定义代码<code>&lt;kbd&gt;</code>定义键盘码<code>&lt;samp&gt;</code>定义计算机代码样本<code>&lt;var&gt;</code>定义变量<code>&lt;pre&gt;</code>定义预格式文本<br>HTML 引文, 引用, 及标签定义<br><code>&lt;abbr&gt;</code>定义缩写<code>&lt;adress&gt;</code>定义地址<code>&lt;bdo&gt;</code>定义文字方向<code>&lt;blockquote&gt;</code>定义长的引用语<code>&lt;q&gt;</code>定义短的引用语<code>&lt;cite&gt;</code>定义引用引证<code>&lt;dfn&gt;</code>定义一个定义项目</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;#简介&lt;/p&gt;
-&lt;p&gt;HTML的简单定义&lt;/p&gt;
-&lt;p&gt;HTML标题&lt;br&gt;html标题通过&lt;code&gt;&amp;lt;h1&amp;gt;-&amp;lt;h6&amp;gt;&lt;/code&gt;来定义&lt;br&gt;例：&lt;code&gt;&amp;lt;h1&amp;gt;标题&amp;lt;/h1&amp;gt;&lt;/code&gt;&lt;br&gt;HTML段落&lt;b</summary>
       
     
     
