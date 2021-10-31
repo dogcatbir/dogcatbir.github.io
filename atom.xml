@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-31T11:47:04.384Z</updated>
+  <updated>2021-10-31T11:48:41.000Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2021/10/31/html(2)/"/>
     <id>http://example.com/2021/10/31/html(2)/</id>
     <published>2021-10-31T02:04:18.000Z</published>
-    <updated>2021-10-31T11:47:04.384Z</updated>
+    <updated>2021-10-31T11:48:41.000Z</updated>
     
-    <content type="html"><![CDATA[<p>#简介</p><h2 id="HTML的学习"><a href="#HTML的学习" class="headerlink" title="HTML的学习"></a>HTML的学习</h2><ul><li><p>html的链接<br>html的链接用标签<a>来设置<br>例如：<code>&lt;a href=&quot;url&quot;&gt;链接文本&lt;/a&gt;</code></p></li><li><p>html的链接有2种属性：<br>target属性：<br>使用target可以设置你的链接在哪里打开<br><code>&lt;a href=&quot;https://www.runoob.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;访问菜鸟教程!&lt;/a&gt;</code><br>id属性<br>id定义的标签只有作者看的到。<br>例如<code>&lt;a id=&quot;tips&quot;&gt;有用的提示部分&lt;/a&gt;</code></p></li><li><p>html的<head>元素</p><head>元素可以包含所有的头部标签元素，在<head>元素中可以插入脚本（scripts）样式文件（CSS）和各种meta信息</li><li><p>base元素<br>base标签描述了基本链接地址或目标<br>例如</p><head><base href="http://www.runoob.com/images/" target="_blank"></head></li><li><p><code>&lt;link&gt;</code><br>用来定义文档和外部文件的关系，通常用于链接到样式表。</p></li><li><style>style元素用来定义html样式文件的引用地址，在<style>中可以通过直接添加样式来渲染文档。<head><style type="text/css">body {background-color:yellow}  <b>p {color:blue}//变蓝  </b></style></head></li></ul><p>*<meta></p><meta>标签提供元数据，元数据不会被读者看到，但会被浏览器解析。meta 元素通常用于指定网页的描述，关键词，文件的最后修改时间，作者，和其他元数据<meta>一般放在<head>中meta的使用实例<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">定义关键词            "description" 定义网页描述内容            "author"定义网页作者            "refresh"定义网页刷新时间]]></content>
+    <content type="html"><![CDATA[<p>#简介</p><h2 id="HTML的学习"><a href="#HTML的学习" class="headerlink" title="HTML的学习"></a>HTML的学习</h2><ul><li><p>html的链接<br>html的链接用标签<a>来设置<br>例如：<code>&lt;a href=&quot;url&quot;&gt;链接文本&lt;/a&gt;</code></p></li><li><p>html的链接有2种属性：<br>target属性：<br>使用target可以设置你的链接在哪里打开<br><code>&lt;a href=&quot;https://www.runoob.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;访问菜鸟教程!&lt;/a&gt;</code><br>id属性<br>id定义的标签只有作者看的到。<br>例如<code>&lt;a id=&quot;tips&quot;&gt;有用的提示部分&lt;/a&gt;</code></p></li><li><p>html的<head>元素</p><head>元素可以包含所有的头部标签元素，在<head>元素中可以插入脚本（scripts）样式文件（CSS）和各种meta信息</li><li><p>base元素<br>base标签描述了基本链接地址或目标<br>例如</p><head><base href="http://www.runoob.com/images/" target="_blank"></head></li><li><p><code>&lt;link&gt;</code><br>用来定义文档和外部文件的关系，通常用于链接到样式表。</p></li><li><style>style元素用来定义html样式文件的引用地址，在<style>中可以通过直接添加样式来渲染文档。</li></ul><style type="text/css">body {background-color:yellow}    <b>p {color:blue}//变蓝    </b></style><p>*<meta></p><meta>标签提供元数据，元数据不会被读者看到，但会被浏览器解析。meta 元素通常用于指定网页的描述，关键词，文件的最后修改时间，作者，和其他元数据<meta>一般放在<head>中meta的使用实例<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">定义关键词            "description" 定义网页描述内容            "author"定义网页作者            "refresh"定义网页刷新时间]]></content>
     
     
       
