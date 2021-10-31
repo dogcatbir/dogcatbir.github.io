@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-31T11:58:08.972Z</updated>
+  <updated>2021-10-31T12:16:44.586Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>html插入图片</title>
+    <link href="http://example.com/2021/10/31/html%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/"/>
+    <id>http://example.com/2021/10/31/html%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</id>
+    <published>2021-10-31T12:04:18.000Z</published>
+    <updated>2021-10-31T12:16:44.586Z</updated>
+    
+    <content type="html"><![CDATA[<p>#简介</p><p>html插入图片</p><p>在html中<code>&lt;img&gt;</code>用来定义图片</p><p><code>&lt;img&gt;</code>是个空标签，没有闭合标签</p><p>用来定义图像的语法是</p><p><code>&lt;img src=&quot;url&quot; alt=&quot;some_text&quot;&gt;</code></p><p>url是指图片储存的地方，src指图像的url地址</p><p>alt是指图片显示不了，用来显示的文字</p><p><code>&lt;img src=&quot;pulpit.jpg&quot; alt=&quot;Pulpit rock&quot; width=&quot;304&quot; height=&quot;228&quot;&gt;</code></p><p>width用来定义宽度，height用来定义高度</p><p>一些图像标签</p><table><thead><tr><th>img</th><th>定义图像</th></tr></thead><tbody><tr><td>map</td><td>定义图像地图</td></tr><tr><td>area</td><td>定义图像地图中的可点击区域</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;#简介&lt;/p&gt;
+&lt;p&gt;html插入图片&lt;/p&gt;
+&lt;p&gt;在html中&lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;用来定义图片&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;是个空标签，没有闭合标签&lt;/p&gt;
+&lt;p&gt;用来定义图像的语法是&lt;/p&gt;
+&lt;p&gt;&lt;cod</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>html（2）</title>
