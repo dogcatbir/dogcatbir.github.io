@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-31T12:16:44.586Z</updated>
+  <updated>2021-11-07T14:46:56.892Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>css1</title>
+    <link href="http://example.com/2021/11/07/css/"/>
+    <id>http://example.com/2021/11/07/css/</id>
+    <published>2021-11-07T02:04:18.000Z</published>
+    <updated>2021-11-07T14:46:56.892Z</updated>
+    
+    <content type="html"><![CDATA[<p>#简介</p><p><strong>css</strong></p><p>CSS 规则由两个主要的部分构成：<strong>选择器</strong>，以及一条或多条<strong>声明</strong>:h1 {color：blue；font-size：12px；}</p><p>其中h1为<strong>选择器</strong>，{}中的为<strong>声明</strong>，color font-size为<strong>属性</strong>，blue 12px为<strong>值</strong>。</p><p><strong>选择器</strong>通常是您需要改变样式的 HTML 元素。</p><p>每条声明由一个属性和一个值组成。</p><p><strong>属性</strong>（property）是您希望设置的样式属性（style attribute）。每个属性有一个值。属性和值被冒号分开。</p><p><strong>css结构</strong></p><p>css总是以<strong>；</strong>结束，声明都是使用**{}**来括起来。</p><p><strong>css的注释</strong></p><p>css注释以<code>/*</code>开头，<code>*/</code>结尾。注释中的内容不会显示出来。</p><p><strong>css中的id和class选择器</strong></p><p><strong>id</strong> 选择器可以为标有特定 id 的 HTML 元素指定特定的样式。</p><p>HTML元素以id属性来设置id选择器,CSS 中 id 选择器以 “#” 来定义。</p><p>以下的样式规则应用于元素属性 id=”para1”:</p><p><strong>class</strong> 选择器用于描述一组元素的样式，class 选择器有别于id选择器，class可以在多个元素中使用。</p><p>class 选择器在HTML中以class属性表示, 在 CSS 中，类选择器以一个点”.”号显示：</p><p>在以下的例子中，所有拥有 center 类的 HTML 元素均为居中。</p><p>例如</p><p><code>&lt;!DOCTYPE html&gt;</code><br><code>&lt;html&gt;</code></p><p><code>&lt;head&gt;</code></p><p><code>&lt;meta charset=&quot;utf-8&quot;&gt;</code><br><code>&lt;title&gt;菜鸟教程(runoob.com)&lt;/title&gt;</code><br><code>&lt;style&gt;</code><br><code>.center</code><br><code>&#123;</code><br>    <code>text-align:center;</code><br><code>&#125;</code><br>    <code>/style&gt;</code><br>    <code>/head&gt;</code></p><pre><code>&lt;body&gt;</code></pre><p><code>&lt;h1 class=&quot;center&quot;&gt;标题居中&lt;/h1&gt;</code><br><code>&lt;p class=&quot;center&quot;&gt;段落居中。&lt;/p&gt;</code> </p><p><code>&lt;/body&gt;</code><br><code>&lt;/html&gt;</code></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;#简介&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;css&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;CSS 规则由两个主要的部分构成：&lt;strong&gt;选择器&lt;/strong&gt;，以及一条或多条&lt;strong&gt;声明&lt;/strong&gt;:h1 {color：blue；font-size：12px；}&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>html插入图片</title>
