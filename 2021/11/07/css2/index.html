@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>css2 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="#简介 css的创建 插入样式表 插入样式表的方法有三种:  外部样式表(External style sheet)  内部样式表(Internal style sheet)  内联样式(Inline style) 外部样式表   当样式需要应用于很多页面时，外部样式表将是理想的选择。在使用外部样式表的情况下，你可以通过改变一个文件来改变整个站点的外观。每个页面使用 &lt;link&gt; 标签">
+<meta property="og:type" content="article">
+<meta property="og:title" content="css2">
+<meta property="og:url" content="http://example.com/2021/11/07/css2/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="#简介 css的创建 插入样式表 插入样式表的方法有三种:  外部样式表(External style sheet)  内部样式表(Internal style sheet)  内联样式(Inline style) 外部样式表   当样式需要应用于很多页面时，外部样式表将是理想的选择。在使用外部样式表的情况下，你可以通过改变一个文件来改变整个站点的外观。每个页面使用 &lt;link&gt; 标签">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-11-07T12:04:18.000Z">
+<meta property="article:modified_time" content="2021-11-07T15:16:57.842Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-css2" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/11/07/css2/" class="article-date">
+  <time class="dt-published" datetime="2021-11-07T12:04:18.000Z" itemprop="datePublished">2021-11-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      css2
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>#简介</p>
+<p><strong>css的创建</strong></p>
+<p>插入样式表</p>
+<p>插入样式表的方法有三种:</p>
+<ul>
+<li><p><em>外部样式表</em>(External style sheet)</p>
+</li>
+<li><p><em>内部样式表</em>(Internal style sheet)</p>
+</li>
+<li><p><em>内联样式</em>(Inline style)</p>
+<p><strong>外部样式表</strong></p>
+</li>
+</ul>
+<p>当样式需要应用于很多页面时，外部样式表将是理想的选择。在使用外部样式表的情况下，你可以通过改变一个文件来改变整个站点的外观。每个页面使用 <code>&lt;link&gt;</code> 标签链接到样式表。 <code>&lt;link&gt;</code> 标签在（文档的）头部：</p>
+<p><code>&lt;head&gt;</code></p>
+<p><code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;mystyle.css&quot;&gt;</code></p>
+<p><code>&lt;/head&gt;</code></p>
+<p>浏览器会从文件 mystyle.css 中读到样式声明，并根据它来格式文档。</p>
+<p>外部样式表可以在任何文本编辑器中进行编辑。文件不能包含任何的 html 标签。样式表应该以 .css 扩展名进行保存。下面是一个样式表文件的例子：</p>
+<p><code>hr &#123;color:sienna;&#125;</code></p>
+<p> <code>p &#123;margin-left:20px;&#125;</code></p>
+<p> <code>body &#123;background-image:url(&quot;/images/back40.gif&quot;);&#125;</code></p>
+<p><strong>内部样式表</strong></p>
+<p>当单个文档需要特殊的样式时，就应该使用内部样式表。你可以使用 <style> 标签在文档头部定义内部样式表，就像这样:</p>
+<p><code>&lt;head&gt;</code></p>
+<pre><code>&lt;style&gt;
+    hr &#123;color:sienna;&#125;
+    p &#123;margin-left:20px;&#125;
+    body &#123;background-image:url(&quot;images/back40.gif&quot;);&#125; 
+&lt;/style&gt; 
+</code></pre>
+<p><code>&lt;/head&gt;</code></p>
+<p><strong>多重样式</strong></p>
+<p>如果某些属性在不同的样式表中被同样的选择器定义，那么属性值将从更具体的样式表中被继承过来。 </p>
+<p>例如，外部样式表拥有针对 h3 选择器的三个属性：</p>
+<p><code>h3 &#123;    color:red;</code> </p>
+<p>   <code>text-align:left;</code> </p>
+<p>   <code>font-size:8pt; &#125;</code></p>
+<p>而内部样式表拥有针对 h3 选择器的两个属性：</p>
+<p><code>h3 &#123;    text-align:right;</code>  </p>
+<p>  <code>font-size:20pt; &#125;</code></p>
+<p>假如拥有内部样式表的这个页面同时与外部样式表链接，那么 h3 得到的样式是：（缺啥补啥）</p>
+<p><code>color:red;</code></p>
+<p> <code>text-align:right;</code></p>
+<p> <code>font-size:20pt;</code></p>
+<p>即颜色属性将被继承于外部样式表，而文字排列（text-alignment）和字体尺寸（font-size）会被内部样式表中的规则取代。</p>
+<p><strong>多重样式优先级</strong></p>
+<p>样式表允许以多种方式规定样式信息。样式可以规定在单个的 HTML 元素中，在 HTML 页的头元素中，或在一个外部的 CSS 文件中。甚至可以在同一个 HTML 文档内部引用多个外部样式表。</p>
+<p>一般情况下，优先级如下：</p>
+<p><strong>（内联样式）Inline style &gt; （内部样式）Internal style sheet &gt;（外部样式）External style sheet &gt; 浏览器默认样式</strong></p>
+<p><code>&lt;head&gt;</code>  </p>
+<p>  <code>&lt;!-- 外部样式 style.css --&gt;</code> </p>
+<p>   <code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;style.css&quot;/&gt;</code>  </p>
+<p>  <code>&lt;!-- 设置：h3&#123;color:blue;&#125; --&gt;</code> </p>
+   <style type="text/css">  
+       
+   </style>
+
+<p>​    <code>/* 内部样式 */      h3&#123;color:green;&#125;</code>    </p>
+<p><code>&lt;/style&gt;</code> </p>
+<p><code>&lt;/head&gt; &lt;body&gt;</code>   </p>
+<p> <code>&lt;h3&gt;测试！/h3&gt;</code> </p>
+<p><code>&lt; /body&gt;</code></p>
+<p>如果外部样式放在内部样式后面，那么外部会覆盖内部。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/11/07/css2/" data-id="ckvpdqbe200002oue6p810zfk" data-title="css2" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2021/11/07/css/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">css1</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/11/">November 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/10/">October 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/09/">September 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2021/11/07/css2/">css2</a>
+          </li>
+        
+          <li>
+            <a href="/2021/11/07/css/">css1</a>
+          </li>
+        
+          <li>
+            <a href="/2021/10/31/html%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/">html插入图片</a>
+          </li>
+        
+          <li>
+            <a href="/2021/10/31/html(2)/">html（2）</a>
+          </li>
+        
+          <li>
+            <a href="/2021/10/24/html%E4%B8%80%E4%BA%9B%E7%AE%80%E5%8D%95%E7%9A%84%E5%AE%9A%E4%B9%89/">html一些简单的定义</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2021 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
